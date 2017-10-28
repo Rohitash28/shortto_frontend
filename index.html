@@ -22,7 +22,7 @@
 <body>
     <!-- Navbar Start -->
     <nav>
-        <div class="container">
+        <div class="container" >
             <div class="row">
                 <div class="col-md-1 col-sm-12 col-xs-12 text-center">
                     <h1 class="logo">ShortTo </h1>
@@ -43,8 +43,8 @@
     </nav>
     <!-- Navbar End -->
     <!-- Main Body Start -->
-    <div class="container-fluid" id="main" style="color: white;">
-        <div class="row" ">
+    <div class="container-fluid" id="main" style="color: white>
+        <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12 center">
                 <h1 class="basic-heading">Get Custom URL</h1>
                 <ul class="main-point">
@@ -60,7 +60,7 @@
                 </ul>
                 <p class="sub-heading">We are here to solve all your URL issues.</p>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 main-div">
+            <div class="col-md-6 col-sm-12 col-xs-12 main-div" id="main-div">
                 <form action="/" method="post" enctype="multipart/form-data">
                     <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
                     <label for="basic-url-2" class="label-style">Enter long URL to shorten it</label>
@@ -81,7 +81,18 @@
                     " id="to_url" name="to_url" aria-describedby="basic-addon3" placeholder="Place your custom URL here(Optional)">
                     </div>
                     <br>
-                    <button type="submit" class="btn-sbmt"><b>Shorten my URL</b></button>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <button type="submit" class="btn-sbmt"><b>Shorten my URL</b></button>
+                        </div>
+                        <div class="col-md-5">
+                            <b>Links Shortened: </b> 11,213 <br> 
+                            <b>Link Clicks: </b> 23,97,987 times
+                        </div>
+                        <div class="col-md-3" style="padding-top: 10px">
+                            <button  class="shorted_url" onclick="showMyLinks()">My sort URLs</button>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>

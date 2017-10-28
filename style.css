@@ -1,5 +1,5 @@
 body {
-	overflow: hidden;
+	overflow-x: hidden;
 	color : white;
 	background: #159957;
 	/* fallback for old browsers */
@@ -11,6 +11,16 @@ body {
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	font-family: 'Open Sans', sans-serif;
+}
+
+.table td  {
+   text-align: center;   
+   max-width: 30px;
+   word-wrap: break-word;	
+}
+.table th {
+   text-align: center;   
+
 }
 
 .red {

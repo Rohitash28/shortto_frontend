@@ -1,7 +1,46 @@
 var global_gradient = null;
 var arr = ['red', 'meridian', 'sunset', 'timbr', 'pre-dawn', 'man-of-steel', 'instagram', 'sage', 'forest', 'deep-space', 'red-ocean', 'disco'];
 changeColor('random');
+function showMyLinks()
+{
+    document.getElementById('main-div').innerHTML = `
+         <table class="table " style="overflow-y: scroll">
+    <thead>
+      <tr >
+        <th>Date created</th>
+        <th>Original URL</th>
+        <th>Short URL</th>
+        <th>Number of clicks</th>
 
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>16/8/17</td>
+        <td>http://www.makemoneywithurl.com/2014/10/best-paying-url-shortener-or-highest.html</td>
+        <td>https://short.com/sduyat</td>
+        <td>895</td>
+
+      </tr>
+       <tr>
+        <td>16/8/17</td>
+        <td>http://www.makemoneywithurl.com/2014/10/best-paying-url-shortener-or-highest.html</td>
+        <td>https://short.com/sduyat</td>
+        <td>895</td>
+
+      </tr>
+       <tr>
+        <td>16/8/17</td>
+        <td>http://www.makemoneywithurl.com/2014/10/best-paying-url-shortener-or-highest.html</td>
+        <td>https://short.com/sduyat</td>
+        <td>895</td>
+
+      </tr>
+    </tbody>
+  </table>
+
+    `;
+}
 function changeColor(color) {
 
     switch (color) {
