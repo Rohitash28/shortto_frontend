@@ -38,6 +38,7 @@ function showMyLinks()
       </tr>
     </tbody>
   </table>
+  <button  class="shorted_url" onclick="location.href='https://shortto.com'">Short more URLs</button>
 
     `;
 }
