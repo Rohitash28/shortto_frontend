@@ -199,7 +199,7 @@ button:focus {
 	font-size: 22px;
 }
 .label-style {
-	display: 200002px;
+	display: 220px;
 }
 .label-style-2 {
 	font-size: 22px;
@@ -482,5 +482,11 @@ footer > container-fluid >  {
 	border: 0px;
 	font-size: 16px;
 }
+.btn-sbmt {
+	background: transparent;
+	border: 2px solid white;
+}
+#move {
 
+}
 }
