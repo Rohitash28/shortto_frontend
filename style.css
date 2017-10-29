@@ -193,7 +193,7 @@ button:focus {
 	padding-bottom: 10px
 }
 .basic-heading {
-	font-size: 70px;
+	font-size: 50px;
 }
 .sub-heading {
 	font-size: 22px;
@@ -303,6 +303,12 @@ ul li {
 	font-size: 22px;
 	color: white;
 }
+
+.glyphicon-heart {
+	font-family: 'Glyphicons Halflings';
+	font-size: 22px;
+	color: rgb(206, 0, 0);
+}
 .shorted_url {
 	background: transparent;
 	border: 2px solid white;
@@ -315,15 +321,13 @@ nav {
 
 .logo {
 	font-family: 'Comfortaa', cursive;
-	font-size: 40px;
+	font-size: 45px;
 }
 
 /*Button*/
 .btn-sbmt {
-	position: relative;
+	position: relative;;
 	padding: 10px 20px !important;
-	display: block;
-	padding: 0;
 	border: none;
   
 	box-shadow: 0 1px 50px rgba(0, 0, 0, .2);
@@ -412,6 +416,10 @@ input:focus{
 	outline: none;
 }
 
+.mobile {
+	padding-bottom: 15px;
+}
+
 .footer {
 	bottom: 0;
     margin-bottom: 0;
@@ -422,7 +430,7 @@ input:focus{
 }
 
 footer p {
-	font-size: 22px;
+	font-size: 17px;
 }
 
 footer a {
@@ -445,7 +453,7 @@ footer a:hover {
    	color: green;
 	  }
 	  .basic-heading {
-	  	font-size: 28px;
+	  	font-size: 40px;
 	  }
 	 	ul > li > p {
 	  	font-size: 16px;
@@ -466,9 +474,7 @@ position: relative;
 display: block;
 border-collapse: separate;
 }
-footer > container-fluid >  {
-	font-size: 10px;
-}
+
 .label-style {
 	font-size: 18px;
 }
@@ -488,5 +494,15 @@ footer > container-fluid >  {
 }
 #move {
 
+li .timbr {
+	margin-top:  30px !important;
+}
+.mobile {
+	padding-bottom: 50px;
+}
+
+.mobile-btn {
+	margin-top: 15px;
+}
 }
 }
