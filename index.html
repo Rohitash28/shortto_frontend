@@ -25,7 +25,7 @@
         <div class="container" >
             <div class="row">
                 <div class="col-md-1 col-sm-12 col-xs-12 text-center">
-                    <h1 class="logo">ShortTo </h1>
+                    <h1 class="logo">ShortTo.com </h1>
                 </div>
                 <div class="col-md-6"></div>
                 <div class="col-md-5 text-center colorChange" style="margin-top: 25px;">
@@ -33,8 +33,8 @@
                         <li onclick="changeColor('red');" ><button id="red">Red</button></li>
                         <li onclick="changeColor('meridian');"><button id="meridian">Meridian</button></li>
                         <li onclick="changeColor('sunset');"><button id="sunset">Sunset</button></li>
-                        <li onclick="changeColor('timbr');"><button id="timbr">Timbr</button></li>
-                        <li onclick="changeColor('random');"><button id="random">Random</button></li>
+                        <li class="mobile-btn" onclick="changeColor('timbr');"><button id="timbr">Timbr</button></li>
+                        <li class="mobile-btn" onclick="changeColor('random');"><button id="random">Random</button></li>
                     </ul>
                 </div>
             </div>
@@ -81,16 +81,16 @@
                     {% endif %}
                     " id="to_url" name="to_url" aria-describedby="basic-addon3" placeholder="Place your custom URL here(Optional)">
                     </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-4" id="move">
+                    <div class="mobile"></div>
+                    <div class="row text-center">
+                        <div class="col-md-4 col-sm-4" id="move">
                             <button type="submit" class="btn-sbmt"><b>Shorten my URL</b></button>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 col-sm-5" style="padding-top: 15px">
                             <b>Links Shortened: </b> 11,213 <br> 
                             <b>Link Clicks: </b> 23,97,987 times
                         </div>
-                        <div class="col-md-3" style="padding-top: 10px">
+                        <div class="col-md-3 col-sm-3" style="padding-top: 15px">
                             <button  class="shorted_url" onclick="showMyLinks()">My short URLs</button>
                         </div>
                     </div>
@@ -105,10 +105,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                <span><p class="text-center">A Project by <a href="http://microsoftlpu.com/">Microsoft Technical Community LPU</a></p></span>
+                        <span><p class="text-center">Made with <i class="glyphicon glyphicon-heart"></i> in India</p></span>
+                <span><p class="text-center">A Project by <a href="http://microsoftlpu.com/" target="_blank">Microsoft Technical Community LPU</a></p></span>
                 <p class="text-center"> © 2017 Copyright
                     <a href="https://shortto.com ">ShortTo Inc.</a> All Rights Reserved.</p>
-                <p class="text-center" style="font-size: 19px;"><i>Making Links Shorter</i></p>
             </div>
             </div>
         </div>
